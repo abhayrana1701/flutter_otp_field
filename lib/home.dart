@@ -46,13 +46,10 @@ class _HomeState extends State<Home> {
                         children: [
                           Text("OTP: $otp"),
                           SizedBox(height:15),
-                          Align(
-                            alignment: Alignment.center,
-                            child: CircleAvatar(
-                              child: Icon(Icons.check,color: Colors.green,size: 50),
-                              backgroundColor: Color.fromRGBO(224, 220, 220, 1.0),
-                              radius: 40,
-                            ),
+                          CircleAvatar(
+                            child: Icon(Icons.check,color: Colors.green,size: 50),
+                            backgroundColor: Color.fromRGBO(224, 220, 220, 1.0),
+                            radius: 40,
                           ),
                         ],
                       )
